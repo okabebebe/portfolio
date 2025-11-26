@@ -1,0 +1,91 @@
+@charset "UTF-8"; 
+
+ body{
+	 background-color: #d6c6af;
+	 line-height: 1.7;
+	 color: #434343;
+ }
+ 
+ img{
+	 max-width: 100%;
+ }
+ 
+
+ 
+ .header-page{
+	 height: 20px;
+ }
+ 
+.portfolio-logo{
+	display: flex;
+	border-bottom: 1px solid #434343;
+	margin: 10px;
+}
+
+.logo-img{	
+	width: 2rem;
+}
+
+.portfolio-name{
+	font-size: 15px;
+}
+
+.page-title{
+	display: flex;
+	margin: 5%;
+	align-items: center;
+}
+
+.page-title-name{
+	font-size:5rem;
+	text-align: center;
+}
+
+.square{
+	width: 3rem;
+	height: 8rem;
+	background-color: #434343;
+}
+
+.square-dot{
+	background-color: #d6c6af;
+	background-image: radial-gradient(circle, #434343 4px, transparent 4px);
+	background-size: 20px 20px;
+	background-position: 0 0;
+	background-repeat: repeat;
+	width: 2.5rem;
+	height: 7.5rem;
+}
+
+.profile{
+	margin-left:5%;
+	display: flex;
+	align-items: center;
+}
+
+.profile-square{
+	width: 1rem;
+	height: 1rem;
+	background-color: #434343;
+}
+
+.my-profile{
+	font-size:2rem;
+}
+
+.my-history{
+	display: flex;
+}
+
+.history,
+.skills{
+	margin-left: 5%;
+	margin-right: 3%;
+	display: flex;
+}
+
+.sample-photo{
+		width: 10rem;
+		background-color: beige;
+		padding: 10%;
+}
