@@ -10,7 +10,19 @@
 	 max-width: 100%;
  }
  
+section,
+article{
+	margin: 5%;
+}
 
+h2{
+	font-size: 3rem;
+}
+
+
+span{
+	font-weight: 800;
+}
  
  .header-page{
 	 height: 20px;
@@ -57,35 +69,30 @@
 	height: 7.5rem;
 }
 
-.profile{
-	margin-left:5%;
+.contents{
 	display: flex;
 	align-items: center;
 }
 
-.profile-square{
+.contents-square{
 	width: 1rem;
 	height: 1rem;
 	background-color: #434343;
 }
 
-.my-profile{
-	font-size:2rem;
-}
-
-.my-history{
+.profile-set{
 	display: flex;
-}
-
-.history,
-.skills{
-	margin-left: 5%;
-	margin-right: 3%;
-	display: flex;
+	gap: 5%;
+	
 }
 
 .sample-photo{
-		width: 10rem;
-		background-color: beige;
-		padding: 10%;
+	background-color: beige;
+	width: 30%;
+	height: auto
+}
+
+.history{
+	list-style: none;
+	line-height: 5rem;
 }
