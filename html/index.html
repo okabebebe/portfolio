@@ -1,62 +1,129 @@
 <!DOCTYPE html> 
 <html lang="ja"> 
 <head> 
-<meta charset="UTF-8">  
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
 <title>My portfolio</title>  
 <meta name="description" content="経歴を載せたポートフォリオサイト">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+
 <link rel="stylesheet" href="../css/style.css">  
 </head> 
+
 <body> 
+	<div class="back"></div>
 	
-	<header class="header-page">
-		<div class="portfolio-logo">
-			<img class="logo-img" src="../images/te5.png" alt="ロゴデザイン">
-			<h1 class="portfolio-name">HTML/CSS</h1>
-		</div>
+	<header>
+		<section class="top-section">
+			<div class="back-area">
+				<div class="top-content">
+					<span class="portfolio">Portfolio 2025/10-12</span>
+					<h1>My Portfolio</h1>
+					<p>Keep learning and keep moving forward</p>
+				</div>
+				<div class="logo">
+					<img class="logo-img" src="../images/te5.png" alt="ロゴデザイン">				
+				</div>
+			</div>			
+		</section>		
 	</header>
 	
-	<div class="page-title">
-		<div class="square"></div>
-		<div class="square-dot"></div>
-		<h1 class="page-title-name">My portfolio</h1>
-	</div>
+	<main>
+		<section class="news-section">
+			<div class="news-area">
+				<div class="news-content">
+					<h2 class="news-header">◆News</h2>
+					<ul class="news-list">
+						<li class="news-item">
+							<span class="news-date">2025.10.1</span>
+							<span class="news-category">Traning</span>
+							<p class="news-text">アプリケーション開発研修開始</p>
+						</li>
+						<li class="news-item">
+							<span class="news-date">2025/11/26</span>
+							<span class="news-category">Info</span>
+							<p class="news-text">ポートフォリオ公開しました</p>
+						</li>	
+						<li class="news-item">
+							<span class="news-date">2025/12/25</span>
+							<span class="news-category">Info</span>
+							<p class="news-text">ポートフォリオリニューアルしました</p>
+						</li>		
+					</ul>
+				</div>
+			</div>			
+		</section>	
+		
+		<section class="works-section">
+			<div class="works-area">
+				<div class="works-content">
+					<h2 class="works-header">◆Works</h2>
+					<div class="works-row">
+						<a href="https://github.com/okabebebe/daily-java" class="work-card">
+							<div class="work-icon">
+								<span class="icon-code"> &#10001;</span>
+								<span class="icon-label">Java</span>
+							</div>
+						</a>
+						<a href="https://github.com/okabebebe/daily-java" class="work-card">
+							<div class="work-icon">
+								<span class="icon-code"> &#10001;</span>
+								<span class="icon-label">Oracle</span>
+							</div>
+						</a>
+						<a href="https://github.com/okabebebe/daily-java" class="work-card">
+							<div class="work-icon">
+								<span class="icon-code"> &#10001;</span>
+								<span class="icon-label">Spring</span>
+							</div>
+						</a>
+						<a href="https://github.com/okabebebe/daily-java" class="work-card">
+							<div class="work-icon">
+								<span class="icon-code"> &#10001;</span>
+								<span class="icon-label">Java<br>Script</span>
+							</div>
+						</a>
+						<a href="https://github.com/okabebebe/daily-java" class="work-card">
+							<div class="work-icon">
+								<span class="icon-code"> &#10001;</span>
+								<span class="icon-label">Comming<br> Soon</span>
+							</div>
+						</a>
+						<a href="http://localhost:7779/spring_crud" class="work-card">
+							<div class="work-icon">
+								<span class="icon-code"> &#10001;</span>
+								<span class="icon-label">Make</span>
+							</div>
+						</a>
+					</div>					
+				</div>
+			</div>			
+		</section>
+		
+		<section class="profile-section">
+			<div class="profile-area">
+				<h2 class="profile-header">◆About Me</h2>
+				<div class="profile-label">
+					<div class="profile-main">
+						<div class="profile-icon">
+							<img src="../images/sheep.png" alt="profile-image">
+						</div>
+						<div class="profile-content">
+							<p class="profile-name">OKABE HARUKA</p>
+							<div class="profile-meta">
+								<p class="birthday">BORN:1993/09/28</p>
+								<p class="learn">LEARNED:Java/Oracle/HTML/CSS/Spring/JavaScript</p>
+							</div>
+						</div>						
+					</div>					
+				</div>			
+		</section>
+	</main>
 	
-	<section>
-		<div class="contents">
-			<div class="contents-square"></div>
-			<h2>News</h2>
-		</div>
-		<ul>
-			<li>2025/10/1<span>アプリケーション開発研修開始</span></li>
-			<li>2025/11/26 <span>ポートフォリオ公開</span></li>
-		</ul>		
-	</section>
-
-
-	
-	<article>
-		<div class="contents">
-			<div class="contents-square"></div>
-		    <h2>Profile</h2>
-		</div>
+	<footer class="footer">
 		<div>
-			<div class="profile-set">
-				<img class="sample-photo" src="../images/sheep.png">
-				<ul class="history">
-					<h2>みょうじ なまえ</h2>
-					<li>○○年 ▲▲卒業</li>
-					<li>○○年～○○年 ▲▲所属</li>
-					<li>○○年 ▲▲所属</li>
-				</ul>
-					
-			</div>	
-		</div>	
-	</article>
-	
-			
-
-
+			<p class="copyright">&comp;2025 Haruka Okabe. All roght reserved.</p>
+		</div>		
+	</footer>
 </body>  
 </html> 
